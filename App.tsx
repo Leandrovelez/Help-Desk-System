@@ -4,7 +4,7 @@ import { THEME } from './src/styles/theme'
 
 import React from 'react';
 
-import { SignIn } from './src/screens/SignIn';
+import { Signin } from './src/screens/Signin';
 import { Loading } from './src/components/Loading';
 
 export default function App() {
@@ -17,7 +17,7 @@ export default function App() {
         backgroundColor="transparent" 
         translucent
       />
-      { fontsLoaded ? <SignIn /> : <Loading />}
+      { fontsLoaded ? <Signin /> : <Loading />}
     </NativeBaseProvider>
   );
 }
